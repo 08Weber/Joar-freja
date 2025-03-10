@@ -9,10 +9,10 @@ function saveAndNavigate() {
   localStorage.setItem("personnummer", _0x1bf883);
   window.location.href = "index.html";
 }
-var fornamn = ('Nils');
-var efternamn = ('Karlsson');
+var fornamn = ('Carl');
+var efternamn = ('Eriksson');
 var age = ('18');
-var personnummer = ('20070119-0568');
+var personnummer = ('070222-1574');
 document.getElementById("updateEfternamn").textContent = efternamn;
 document.getElementById("updateFornamn").textContent = fornamn;
 document.getElementById("updateAge").textContent = age;
@@ -23,8 +23,8 @@ function updateSpans() {
   var _0x385b7b = new Date();
   _0x385b7b.setDate(_0x385b7b.getDate() + 30);
   var _0x3f826a = {
-    'fornamn': "Mille",
-    'efternamn': "Weber",
+    'fornamn': "",
+    'efternamn': "",
     'expiration': _0x385b7b.getTime()
   };
   localStorage.setItem("userData", JSON.stringify(_0x3f826a));
