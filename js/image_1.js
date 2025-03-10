@@ -21,7 +21,7 @@ window.onload = function () {
     if (savedImage) {
         previewImage.src = savedImage;
     } else {
-        previewImage.src = "profil.JPG"; // Se till att sökvägen är rätt
+        previewImage.src = "profil.jpeg"; // Se till att sökvägen är rätt
     }
 };
 
